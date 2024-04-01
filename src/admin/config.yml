@@ -14,8 +14,7 @@ local_backend: true
 collections:
   - label: "Pages"
     name: "pages"
-    folder: "src/pages"
-    create: true
+    file: "src/pages/adhd_testing.yml"
     slug: "{{slug}}"
     editor:
       preview: false
