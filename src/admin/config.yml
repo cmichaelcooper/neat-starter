@@ -16,6 +16,7 @@ collections:
     name: "project"
     folder: "src/projects"
     create: true
+    slug: "/projects/{{slug}}"
     editor:
       preview: false
     fields:
