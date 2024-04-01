@@ -18,7 +18,7 @@ collections:
     - label: "ADHD Testing"
       name: "adhd-testing"
       file: "src/pages/adhd_testing.yml"
-      slug: "{{slug}}"
+      preview_path: "{{slug}}"
       editor:
         preview: false
       fields:
