@@ -20,7 +20,7 @@ collections:
     files:
     - label: "ADHD Testing"
       name: "adhd-testing"
-      file: "src/pages/adhd_testing.yml"
+      file: "src/pages/adhd_testing.md"
       preview_path: adhd-testing
       editor:
         preview: false
