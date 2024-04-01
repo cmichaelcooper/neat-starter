@@ -7,6 +7,8 @@ backend:
   # repo: surjithctly/neat-starter
 media_folder: "src/static/img"
 public_folder: "/static/img"
+site_url: https://cerulean-narwhal-bb085e.netlify.app/
+display_url: https://cerulean-narwhal-bb085e.netlify.app/
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
@@ -18,7 +20,6 @@ collections:
     - label: "ADHD Testing"
       name: "adhd-testing"
       file: "src/pages/adhd_testing.yml"
-      preview_path: "{{slug}}"
       editor:
         preview: false
       fields:
