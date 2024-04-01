@@ -14,17 +14,20 @@ local_backend: true
 collections:
   - label: "Pages"
     name: "pages"
-    file: "src/pages/adhd_testing.yml"
-    slug: "{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Featured Image", name: "featured_image", widget: "image" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+    files:
+    - label: "ADHD Testing"
+      name: "adhd-testing"
+      file: "src/pages/adhd_testing.yml"
+      slug: "{{slug}}"
+      editor:
+        preview: false
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Description", name: "description", widget: "string" }
+        - { label: "Author", name: "author", widget: "string" }
+        - { label: "Featured Image", name: "featured_image", widget: "image" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown" }
   - label: "Project"
     name: "project"
     folder: "src/projects"
